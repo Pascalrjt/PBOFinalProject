@@ -8,11 +8,11 @@ You have to apply:
 5. Encapsulation ⬜️
 6. Inheritance ⬜️
 7. Polymorphism⬜️
-8. ArrayList ⬜️
-9. Exception Handling ⬜️
+8. ArrayList ✅
+9. Exception Handling ✅
 10. GUI ⬜️
 11. Interface ⬜️
 12. Abstract Class ⬜️
 13. Generics ⬜️
 14. Collection ⬜️
-15. Input Output ⬜️
+15. Input Output ✅
