@@ -18,8 +18,7 @@ import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
 public class Tetris extends Application {
-
-// variables 
+	// The variables
 	public static final int MOVE = 25;
 	public static final int SIZE = 25;
 	public static int XMAX = SIZE * 12;
@@ -34,20 +33,16 @@ public class Tetris extends Application {
 	private static Form nextObj = Controller.makeRect();
 	private static int linesNo = 0;
 
-// starting the game
-
-	public void main(String[] args) {
+	public static void main(String[] args) {
 		launch(args);
 	}
 
 	@Override
 	public void start(Stage stage) throws Exception {
-		// TODO Auto-generated method stub
 		for (int[] a : MESH) {
 			Arrays.fill(a, 0);
 		}
 
-		// Scoring and level text
 		Line line = new Line(XMAX, 0, XMAX, YMAX);
 		Text scoretext = new Text("Score: ");
 		scoretext.setStyle("-fx-font: 20 arial;");
@@ -60,7 +55,6 @@ public class Tetris extends Application {
 		level.setFill(Color.GREEN);
 		group.getChildren().addAll(scoretext, line, level);
 
-		// Blocks and stage
 		Form a = nextObj;
 		group.getChildren().addAll(a.a, a.b, a.c, a.d);
 		moveOnKeyPress(a);
@@ -70,7 +64,6 @@ public class Tetris extends Application {
 		stage.setTitle("TETRIS made by Pascal | NRP: 5025211072");
 		stage.show();
 
-		// Timer
 		Timer fall = new Timer();
 		TimerTask task = new TimerTask() {
 			public void run() {
@@ -83,16 +76,16 @@ public class Tetris extends Application {
 							top = 0;
 
 						if (top == 2) {
-							// GAMEOVER
-							Text over = new Text("GAME OVER: SKILL ISSUE");
+							// GAME OVER
+							Text over = new Text("GAME OVER");
 							over.setFill(Color.RED);
-							over.setStyle("-fx-font:30 arial;");
+							over.setStyle("-fx-font: 70 arial;");
 							over.setY(250);
 							over.setX(10);
 							group.getChildren().add(over);
 							game = false;
 						}
-						// EXIT
+						// Exit
 						if (top == 15) {
 							System.exit(0);
 						}
@@ -106,7 +99,7 @@ public class Tetris extends Application {
 				});
 			}
 		};
-		fall.schedule(task, 0, 300);
+		fall.schedule(task, 0, 300); 
 	}
 
 	private void moveOnKeyPress(Form form) {
@@ -132,7 +125,6 @@ public class Tetris extends Application {
 		});
 	}
 
-	// rotating the pieces
 	private void MoveTurn(Form form) {
 		int f = form.form;
 		Rectangle a = form.a;
@@ -426,17 +418,16 @@ public class Tetris extends Application {
 		ArrayList<Integer> lines = new ArrayList<Integer>();
 		ArrayList<Node> newrects = new ArrayList<Node>();
 		int full = 0;
-
 		for (int i = 0; i < MESH[0].length; i++) {
 			for (int j = 0; j < MESH.length; j++) {
-				if (MESH[i][j] == 1)
+				if (MESH[j][i] == 1)
 					full++;
 			}
 			if (full == MESH.length)
-				lines.add(i);
+			lines.add(i);
+			//lines.add(i + lines.size());
 			full = 0;
 		}
-
 		if (lines.size() > 0)
 			do {
 				for (Node node : pane.getChildren()) {
@@ -480,24 +471,25 @@ public class Tetris extends Application {
 			} while (lines.size() > 0);
 	}
 
-	private void MoveUp(Rectangle rect) {
-		if (rect.getY() - MOVE > 0)
-			rect.setY(rect.getY() - MOVE);
-	}
-
 	private void MoveDown(Rectangle rect) {
 		if (rect.getY() + MOVE < YMAX)
 			rect.setY(rect.getY() + MOVE);
+
 	}
 
 	private void MoveRight(Rectangle rect) {
-		if (rect.getX() + MOVE <= YMAX - SIZE)
+		if (rect.getX() + MOVE <= XMAX - SIZE)
 			rect.setX(rect.getX() + MOVE);
 	}
 
 	private void MoveLeft(Rectangle rect) {
 		if (rect.getX() - MOVE >= 0)
-			rect.setX(rect.getX() + MOVE);
+			rect.setX(rect.getX() - MOVE);
+	}
+
+	private void MoveUp(Rectangle rect) {
+		if (rect.getY() - MOVE > 0)
+			rect.setY(rect.getY() - MOVE);
 	}
 
 	private void MoveDown(Form form) {
@@ -550,19 +542,15 @@ public class Tetris extends Application {
 	private boolean cB(Rectangle rect, int x, int y) {
 		boolean xb = false;
 		boolean yb = false;
-
 		if (x >= 0)
 			xb = rect.getX() + x * MOVE <= XMAX - SIZE;
-
 		if (x < 0)
 			xb = rect.getX() + x * MOVE >= 0;
-
 		if (y >= 0)
 			yb = rect.getY() - y * MOVE > 0;
-
-		if (x < 0)
+		if (y < 0)
 			yb = rect.getY() + y * MOVE < YMAX;
-
 		return xb && yb && MESH[((int) rect.getX() / SIZE) + x][((int) rect.getY() / SIZE) - y] == 0;
 	}
+
 }
