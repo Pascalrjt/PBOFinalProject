@@ -10,7 +10,7 @@ You have to apply:
 7. Polymorphism⬜️
 8. ArrayList ✅ Tetris.java line:417
 9. Exception Handling ✅ Main.java line:12
-10. GUI ✅Tetris.java
+10. GUI ⬜️
 11. Interface ✅ Tetris.java
 12. Abstract Class ⬜️
 13. Generics ⬜️
