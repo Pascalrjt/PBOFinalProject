@@ -20,7 +20,7 @@ You have to apply:
   https://github.com/Pascalrjt/PBOFinalProject/blob/c4df2f094a14eefaa5c739df91641f593f2f2d05/Tetris/src/application/Main.java#L12-L21
 10. GUI ✅ 
   https://github.com/Pascalrjt/PBOFinalProject/blob/c4df2f094a14eefaa5c739df91641f593f2f2d05/Tetris/src/application/Main.java#L13-L17
-11. Interface ✅ 
+11. Interface ⬜️ 
 12. Abstract Class ⬜️
 13. Generics ⬜️
 14. Collection ⬜️
