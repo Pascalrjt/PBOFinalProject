@@ -5,7 +5,7 @@ You have to apply:
 2. Constructor ⬜️
 3. Overloading ⬜️
 4. Overriding ⬜️
-5. Encapsulation ⬜️
+5. Encapsulation ✅ Controller.java line:17
 6. Inheritance ⬜️
 7. Polymorphism⬜️
 8. ArrayList ✅ Tetris.java line:417
