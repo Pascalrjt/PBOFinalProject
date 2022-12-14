@@ -27,7 +27,7 @@ public class Tetris extends Application {
 	private static Pane group = new Pane();
 	private static Form object;
 	private static Scene scene = new Scene(group, XMAX + 150, YMAX);
-	public static int score = 0;
+	public  int score;
 	private static int top = 0;
 	private static boolean game = true;
 	private static Form nextObj = Controller.makeRect();
@@ -42,7 +42,7 @@ public class Tetris extends Application {
 		for (int[] a : MESH) {
 			Arrays.fill(a, 0);
 		}
-
+		score = 0;
 		Line line = new Line(XMAX, 0, XMAX, YMAX);
 		Text scoretext = new Text("Score: ");
 		scoretext.setStyle("-fx-font: 20 arial;");
