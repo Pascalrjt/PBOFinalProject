@@ -6,7 +6,8 @@ You have to apply:
   https://github.com/Pascalrjt/PBOFinalProject/blob/22f5c65b2b5b44b5c9f7ace5aec3bca57622e32d/Tetris/src/application/Tetris.java#L30
   https://github.com/Pascalrjt/PBOFinalProject/blob/22f5c65b2b5b44b5c9f7ace5aec3bca57622e32d/Tetris/src/application/Tetris.java#L45
 3. Overloading ⬜️
-4. Overriding ⬜️
+4. Overriding ✅
+  https://github.com/Pascalrjt/PBOFinalProject/blob/6ab0d409c981d7a90d5ff9feef2219ed1ff19250/Tetris/src/application/Tetris.java#L107-L123
 5. Encapsulation ⬜️
 6. Inheritance ⬜️
 7. Polymorphism⬜️
