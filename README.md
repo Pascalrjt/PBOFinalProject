@@ -16,6 +16,7 @@ You have to apply:
 9. Exception Handling ✅ Main.java line:12
   https://github.com/Pascalrjt/PBOFinalProject/blob/c4df2f094a14eefaa5c739df91641f593f2f2d05/Tetris/src/application/Main.java#L12-L21
 10. GUI ✅ Tetris.java
+  https://github.com/Pascalrjt/PBOFinalProject/blob/c4df2f094a14eefaa5c739df91641f593f2f2d05/Tetris/src/application/Main.java#L13-L17
 11. Interface ✅ Tetris.java
 12. Abstract Class ⬜️
 13. Generics ⬜️
