@@ -2,9 +2,11 @@
 this is the final project of PBO
 You have to apply:
 1. Casting/Conversion ⬜️
+  https://github.com/Pascalrjt/PBOFinalProject/blob/a1c33cddaaa0e5ba9d9f239df5197f6c9c88a14c/Tetris/src/application/Tetris.java#L30-L31
+  https://github.com/Pascalrjt/PBOFinalProject/blob/a1c33cddaaa0e5ba9d9f239df5197f6c9c88a14c/Tetris/src/application/Tetris.java#L46
 2. Constructor ✅ 
-  https://github.com/Pascalrjt/PBOFinalProject/blob/22f5c65b2b5b44b5c9f7ace5aec3bca57622e32d/Tetris/src/application/Tetris.java#L30
-  https://github.com/Pascalrjt/PBOFinalProject/blob/22f5c65b2b5b44b5c9f7ace5aec3bca57622e32d/Tetris/src/application/Tetris.java#L45
+  https://github.com/Pascalrjt/PBOFinalProject/blob/a1c33cddaaa0e5ba9d9f239df5197f6c9c88a14c/Tetris/src/application/Tetris.java#L31
+  https://github.com/Pascalrjt/PBOFinalProject/blob/22f5c65b2b5b44b5c9f7ace5aec3bca57622e32d/Tetris/src/application/Tetris.java#L46
 3. Overloading ⬜️
 4. Overriding ✅
   https://github.com/Pascalrjt/PBOFinalProject/blob/6ab0d409c981d7a90d5ff9feef2219ed1ff19250/Tetris/src/application/Tetris.java#L107-L123
