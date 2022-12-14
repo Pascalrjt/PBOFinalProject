@@ -73,6 +73,11 @@ public class Form {
 			form = 1;
 		}
 	} 
+	//setter
+	public String setName() {
+		return name;
+	}
+	
 	
 }
 
