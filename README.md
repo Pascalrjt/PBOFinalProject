@@ -3,12 +3,16 @@ this is the final project of PBO
 You have to apply:
 1. Casting/Conversion ⬜️
 2. Constructor ✅ Tetris.java line:45
+  https://github.com/Pascalrjt/PBOFinalProject/blob/22f5c65b2b5b44b5c9f7ace5aec3bca57622e32d/Tetris/src/application/Tetris.java#L30
+  https://github.com/Pascalrjt/PBOFinalProject/blob/22f5c65b2b5b44b5c9f7ace5aec3bca57622e32d/Tetris/src/application/Tetris.java#L45
 3. Overloading ⬜️
 4. Overriding ⬜️
 5. Encapsulation ⬜️
 6. Inheritance ⬜️
 7. Polymorphism⬜️
 8. ArrayList ✅ Tetris.java line:417
+  https://github.com/Pascalrjt/PBOFinalProject/blob/22f5c65b2b5b44b5c9f7ace5aec3bca57622e32d/Tetris/src/application/Tetris.java#L417-L419
+  
 9. Exception Handling ✅ Main.java line:12
 10. GUI ✅ Tetris.java
 11. Interface ✅ Tetris.java
