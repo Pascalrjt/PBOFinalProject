@@ -9,6 +9,7 @@ You have to apply:
 6. Inheritance ⬜️
 7. Polymorphism⬜️
 8. ArrayList ✅ Tetris.java line:417
+  https://github.com/Pascalrjt/PBOFinalProject/blob/main/Tetris/src/application/Tetris.java#:~:text=private%20void%20RemoveRows,%3D%200%3B
 9. Exception Handling ✅ Main.java line:12
 10. GUI ⬜️
 11. Interface ✅ Tetris.java
