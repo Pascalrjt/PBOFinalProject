@@ -8,11 +8,11 @@ You have to apply:
 5. Encapsulation ⬜️
 6. Inheritance ⬜️
 7. Polymorphism⬜️
-8. ArrayList ✅
-9. Exception Handling ✅
-10. GUI ⬜️
-11. Interface ⬜️
+8. ArrayList ✅ Tetris.java line:417
+9. Exception Handling ✅ Main.java line:12
+10. GUI ✅Tetris.java
+11. Interface ✅ Tetris.java
 12. Abstract Class ⬜️
 13. Generics ⬜️
 14. Collection ⬜️
-15. Input Output ✅
+15. Input Output ✅ Tetris.java line:105
