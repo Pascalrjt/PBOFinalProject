@@ -2,7 +2,7 @@
 this is the final project of PBO
 You have to apply:
 1. Casting/Conversion ⬜️
-2. Constructor ⬜️
+2. Constructor ✅ Tetris.java line:45
 3. Overloading ⬜️
 4. Overriding ⬜️
 5. Encapsulation ✅ Controller.java line:17
