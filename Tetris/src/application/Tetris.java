@@ -27,6 +27,7 @@ public class Tetris extends Application {
 	private static Pane group = new Pane();
 	private static Form object;
 	private static Scene scene = new Scene(group, XMAX + 150, YMAX);
+	public  double min = 0;
 	public  int score;
 	private static int top = 0;
 	private static boolean game = true;
@@ -42,7 +43,7 @@ public class Tetris extends Application {
 		for (int[] a : MESH) {
 			Arrays.fill(a, 0);
 		}
-		score = 0;
+		score = (int) min;
 		Line line = new Line(XMAX, 0, XMAX, YMAX);
 		Text scoretext = new Text("Score: ");
 		scoretext.setStyle("-fx-font: 20 arial;");
@@ -461,7 +462,7 @@ public class Tetris extends Application {
 						rects.add(node);
 				}
 				for (Node node : rects) {
-					Rectangle a = (Rectangle) node;
+					Rectangle a = (Rectangle) node;	
 					try {
 						MESH[(int) a.getX() / SIZE][(int) a.getY() / SIZE] = 1;
 					} catch (ArrayIndexOutOfBoundsException e) {
