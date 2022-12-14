@@ -8,7 +8,7 @@ You have to apply:
 3. Overloading ⬜️
 4. Overriding ✅
   https://github.com/Pascalrjt/PBOFinalProject/blob/6ab0d409c981d7a90d5ff9feef2219ed1ff19250/Tetris/src/application/Tetris.java#L107-L123
-5. Encapsulation ⬜️
+5. Encapsulation ✅ 
   https://github.com/Pascalrjt/PBOFinalProject/blob/c028f103c989aae1c72d82651ca1472df9a83b40/Tetris/src/application/Form.java#L63-L66
   https://github.com/Pascalrjt/PBOFinalProject/blob/c028f103c989aae1c72d82651ca1472df9a83b40/Tetris/src/application/Form.java#L76-L79
 6. Inheritance ⬜️
