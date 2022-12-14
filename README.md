@@ -26,7 +26,8 @@ You have to apply:
 11. Interface ✅  
   https://github.com/Pascalrjt/PBOFinalProject/blob/c4df2f094a14eefaa5c739df91641f593f2f2d05/Tetris/src/application/Main.java#L13-L17
 12. Abstract Class ⬜️
-13. Generics ⬜️
+13. Generics ✅
+  https://github.com/Pascalrjt/PBOFinalProject/blob/a1c33cddaaa0e5ba9d9f239df5197f6c9c88a14c/Tetris/src/application/Tetris.java#L418-L420
 14. Collection ⬜️
 15. Input Output ✅ 
   https://github.com/Pascalrjt/PBOFinalProject/blob/6ab0d409c981d7a90d5ff9feef2219ed1ff19250/Tetris/src/application/Tetris.java#L105-L126
